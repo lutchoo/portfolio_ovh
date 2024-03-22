@@ -1,0 +1,149 @@
+#about-container {
+  background-color: #0d1117;
+  color: aliceblue;
+  overflow: scroll;
+}
+#about-container > h1 {
+  color: #318ce7;
+  width: 89%;
+  margin: 2em auto;
+  border-bottom: dashed 1px #318ce7;
+  position: relative;
+}
+#about-container > h1::after {
+  content: "";
+  background-image: url(icons/icons8-utilisateur-30.png);
+  background-size: cover;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: 1%;
+}
+#cv-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#motivation {
+  width: 70%;
+  padding: 20px;
+}
+#inline {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#inline a {
+  color: #318ce7;
+  position: relative;
+  top: 125px;
+  display: none;
+  font-size: xx-large;
+  font-weight: 500;
+  text-align: center;
+}
+#inline article:hover > a {
+  display: block;
+}
+#inline article:hover {
+  background-size: 90px;
+}
+#carde {
+  width: 30%;
+  margin: 0 auto;
+}
+#html {
+  width: 150px;
+  height: 150px;
+  background-image: url(./logo/icons8-html-5-48.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#css {
+  width: 150px;
+  height: 150px;
+  background-image: url(./logo/icons8-css-48.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#java {
+  width: 150px;
+  height: 150px;
+  background-image: url(./logo/icons8-javascript-48.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#php {
+  width: 150px;
+  height: 150px;
+  background-image: url(./logo/icons8-php-48.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#wordpress {
+  width: 150px;
+  height: 150px;
+  background-image: url(./logo/icons8-wordpress-48.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#symfony {
+  width: 150px;
+  height: 150px;
+  background-image: url(./logo/icons8-symfony-48.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#react {
+  width: 150px;
+  height: 150px;
+  background-image: url(./logo/icons8-réagir-40.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#about-bot {
+  width: 90%;
+  margin: 0 auto;
+}
+#about-bot h4 {
+  color: #318ce7;
+}
+h2 {
+  color: #318ce7;
+  text-align: center;
+  border-bottom: 1px solid #318ce7;
+}
+#capaciter {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#about-bot img {
+  width: 75px;
+  height: 75px;
+}
+#front img {
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+#front img:hover {
+  width: 100px;
+  height: 100px;
+}
+#back img {
+  transition: transform 1s ease-in-out;
+}
+#back img:hover {
+  transform: rotate(360deg);
+}

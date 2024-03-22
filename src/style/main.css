@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "GeneralSans";
+  src: url("./font/GeneralSans-Variable.ttf") format("truetype"); /* ou 'woff' selon le type de fichier */
+}
+
+.custom-font {
+  font-family: "GeneralSans", sans-serif; /* Utilisez le nom défini dans font-family */
+}
+
+body {
+  margin: 0;
+}
+#root {
+  font-family: "GeneralSans";
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 13% 87%;
+  font-size: x-large;
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "GeneralSans";
+  src: url("./font/GeneralSans-Variable.ttf") format("truetype"); /* ou 'woff' selon le type de fichier */
+}
+
+.custom-font {
+  font-family: "GeneralSans", sans-serif; /* Utilisez le nom défini dans font-family */
+}
+
+html {
+  font-family: "GeneralSans";
+}
